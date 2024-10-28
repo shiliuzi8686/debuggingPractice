@@ -5,6 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+console.log('React.StrictMode')
+console.log(222);
+console.log(333);
+console.log(444);
+
 root.render(
   <React.StrictMode>
     <App />
